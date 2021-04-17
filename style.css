@@ -22,7 +22,6 @@ p{
 
 .title span{
     text-align: center;
-    padding-left: 4em;
     margin-top: 0;
     font-style: italic;
     font-size: 20px;
@@ -45,4 +44,16 @@ section > div > p{
 
 abbr{
     text-decoration: none;
+}
+
+@media (max-width: 768px ){
+    body{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    h1, h2, h3{
+        text-align: center;
+        background-color: transparent;
+        color: black;
+    }
 }
