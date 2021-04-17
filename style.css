@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+body{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+h1, h2, h3{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.title h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.title span{
+    text-align: center;
+    padding-left: 4em;
+    margin-top: 0;
+    font-style: italic;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    background-color: #000;
+    color: #fff;
+}
+ul li{
+    padding-top: 4px;
+}
+
+section > div > p{
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 0 4px;
+}
+
+abbr{
+    text-decoration: none;
+}
